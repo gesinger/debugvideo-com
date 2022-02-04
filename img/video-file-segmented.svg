@@ -1,0 +1,29 @@
+<svg width="840" height="100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text {
+      font: bold 11px sans-serif;
+    }
+  </style>
+
+  <rect y="0" width="100" height="100" fill="blue" />
+  <text x="20" y="50" fill="white">Metadata</text>
+  <text x="5" y="70" fill="white">init-segment.mp4</text>
+
+  <rect x="120" y="0" width="100" height="100" fill="red" />
+  <text x="130" y="50" fill="white">segment0.mp4</text>
+
+  <rect x="240" y="0" width="100" height="100" fill="red" />
+  <text x="250" y="50" fill="white">segment1.mp4</text>
+
+  <rect x="360" y="0" width="100" height="100" fill="red" />
+  <text x="370" y="50" fill="white">segment2.mp4</text>
+
+  <rect x="480" y="0" width="100" height="100" fill="red" />
+  <text x="490" y="50" fill="white">segment3.mp4</text>
+
+  <rect x="600" y="0" width="100" height="100" fill="red" />
+  <text x="610" y="50" fill="white">segment4.mp4</text>
+
+  <rect x="720" y="0" width="100" height="100" fill="red" />
+  <text x="730" y="50" fill="white">segment5.mp4</text>
+</svg>
