@@ -31,7 +31,7 @@ const sidebars = {
     {
       type: 'doc',
       id: 'addressing-new-tickets',
-      label: 'Adrressing new tickets'
+      label: 'Addressing new tickets'
     },
     {
       type: 'doc',

@@ -102,7 +102,7 @@ Then `EXT-X-MEDIA-SEQUENCE` value is incremented by 2.
 > A client MUST NOT assume that segments with the same Media Sequence Number in different Media Playlists contain matching content
 [HTTP Live Streaming 2nd Edition - Section 4.4.3.2](https://datatracker.ietf.org/doc/html/draft-pantos-hls-rfc8216bis-10#section-4.4.3.2)
 
-Although they don't have to match up precisely, if you do notice that the media playlists generally have similar timing values, its worth checking the [content itself](segment-issues#ffprobe) to see that the media timing values line up.
+Although they don't have to match up precisely, if you do notice that the media playlists generally have similar timing values, it's worth checking the [content itself](segment-issues#ffprobe) to see that the media timing values line up.
 
 ##### Discontinuity Sequence Misalignment
 

@@ -15,7 +15,7 @@ Most DRM-related problems can be broken down into one of three categories:
 
 EME provides the APIs needed to allow a browser to decrypt encrypted video. But to do that, it needs to be properly configured. If you're using a custom player, they generally have easy options (or plugins with options) to configure EME, so all you need is to:
 
-1. List the different key systems that the content supports (e.g., Widevine and Playready)
+1. List the different key systems that the content supports (e.g., Widevine and PlayReady)
 2. For each key system, provide a license URL for retrieving a key
 
 The license is provided to the browser, which, under the surface, uses it with a CDM (content decryption module) to decrypt the content.
@@ -28,7 +28,7 @@ Often it's because the key system options are not provided to the player, or are
 
 Certain key systems only work on certain browsers, so make sure that the key system you're trying to use is supported.
 
-If you know that the options are configured correctly, and you're dealing with content that is encrypted with multiple key systems (e.g., Widevine and Playready), then try one of the other key systems (you may need to use a different browser).
+If you know that the options are configured correctly, and you're dealing with content that is encrypted with multiple key systems (e.g., Widevine and PlayReady), then try one of the other key systems (you may need to use a different browser).
 
 Check the [devtools network panel](devtools-network) to see if any license requests failed. Check also that license requests were made. If no license requests were made, then either the EME options aren't provided correctly to the player, the EME plugin/system is not initialized, the content is not encrypted, or something failed before a key session requested a license.
 

@@ -26,7 +26,7 @@ If, after investigation, the issue is still not replicable, you will know to ask
 
 ## Tickets with every possible avenue of exploration
 
-(For anyone reporting tickets, this is the dream for ticket asignees.)
+(For anyone reporting tickets, this is the dream for ticket assignees.)
 
 ```
 Title: Playback stops after an hour with MEDIA_ERR_TIMEOUT

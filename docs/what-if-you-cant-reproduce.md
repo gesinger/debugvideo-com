@@ -12,7 +12,7 @@ Even without a browser that supports saving the network traffic, a HAR file may 
 
 To see more on what HAR files enable you to do, see this [section on Charles Proxy and HAR files](charles-and-har-files).
 
-## Forceful reproduction
+## Tools for reproducing
 
 Often, issues are easy to reproduce. But sometimes the conditions to reproduce an issue happen so rarely that hours can be spent doing monotonous tasks such as seeking or watching the same ad on repeat a hundred times in a row (even for ads you thought were entertaining the twentieth time...by the seventieth you start to rethink things).
 
@@ -65,7 +65,7 @@ Sometimes a seek never completes. In this case, the player's state will be stuck
       videoElement.play();
     }
 
-    // Seek to somewhere within the lenght of the
+    // Seek to somewhere within the length of the
     // video. If this is a live stream, use the
     // seekable range instead of the duration.
     const seekTo = Math.random() * videoElement.duration;

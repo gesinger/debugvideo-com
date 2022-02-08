@@ -2,7 +2,7 @@
 
 When the console doesn't provide enough information to solve a problem alone, the next step is to check the network panel to ensure that the video stream is reachable and valid.
 
-Before we check all of the requests though, we must counter the modern web's tendancy towards spamming hundreds of requests. And this is where filters become handy.
+Before we check all of the requests though, we must counter the modern web's tendency towards spamming hundreds of requests. And this is where filters become handy.
 
 ## Filters
 

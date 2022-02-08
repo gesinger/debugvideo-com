@@ -1,4 +1,4 @@
-# Adressing new tickets
+# Addressing new tickets
 
 This section isn't entirely specific to video, but provides a general approach for addressing new tickets.
 

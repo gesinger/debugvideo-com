@@ -9,7 +9,7 @@ Most of the time, the process is simple. Go to the [devtools network panel](devt
 
 ![Image of option for Copy as cURL](/img/copy-as-curl.png)
 
-After that, paste it into a terminal, and add an ouput with the segment name and extension:
+After that, paste it into a terminal, and add an output with the segment name and extension:
 
 ```bash
 [pasted curl command] --output [some-segment-name].[ts|mp4|m4f|etc]
@@ -29,7 +29,7 @@ Once you've downloaded the initialization segment, and the segment you're lookin
 cat init-segment.mp4 segment3.mp4 > segment3-with-init.mp4
 ```
 
-Then you can use `ffprobe` and other utilites on `segment3-with-init.mp4`.
+Then you can use `ffprobe` and other utilities on `segment3-with-init.mp4`.
 :::
 
 ## Playing a segment independently
@@ -49,7 +49,7 @@ some-segment.ts
 ```
 
 :::tip Try it yourself
-Try to make a single segment VOD HLS manifest and play it back in a browser's video player. If you need a segment, you can take an MP4 and covert it to TS while preserving the codecs via ffmpeg:
+Try to make a single segment VOD HLS manifest and play it back in a browser's video player. If you need a segment, you can take an MP4 and convert it to TS while preserving the codecs via ffmpeg:
 
 ```bash
 ffmpeg -i some-mp4.mp4 -c copy some-segment.ts

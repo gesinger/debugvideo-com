@@ -126,7 +126,7 @@ Note that you will not always see init segments. If they're not included, it mea
 
 `media-1080.m3u8` provides an easy way for a player to see how a video file is broken into segments. Now, instead of a player having to request an entire video file to play content starting from 30 seconds, it can skip over `segment0.mp4`, `segment1.mp4`, and `segment2.mp4` and start downloading from `segment3.mp4`.
 
-For browser that suport HLS (.m3u8 files) and DASH (.mpd files) natively, you can drop them into a `<video>` tag and everything should work:
+For browser that support HLS (.m3u8 files) and DASH (.mpd files) natively, you can drop them into a `<video>` tag and everything should work:
 
 ```
 <video>
@@ -256,7 +256,7 @@ With multiple renditions supported, the only thing left is to handle mixing cont
 
 ### Mixing Content
 
-Let's say you're running a 24/7 live stream, and every 30 seconds you want to run the same 10 second ad. To do this, you need to somehow insert that ad into the media playlst. But you have a problem. Video files have timestamps, so, looking at our sample live stream from above:
+Let's say you're running a 24/7 live stream, and every 30 seconds you want to run the same 10 second ad. To do this, you need to somehow insert that ad into the media playlist. But you have a problem. Video files have timestamps, so, looking at our sample live stream from above:
 
 ```
 #EXTM3U
